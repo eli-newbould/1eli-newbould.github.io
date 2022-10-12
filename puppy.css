@@ -1,0 +1,136 @@
+header{
+    margin-top: 0;
+    font-size: 150%;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 60, 0);
+}
+nav{
+    float: left;
+    width: 150px;
+    padding: 1em;
+    line-height: 3em;
+}
+nav ul{
+    font-size: 120%;
+    margin: 0;
+    padding-left: 0;
+}
+nav a{
+    text-decoration: none;
+    transition: color 2s ease-in;
+}
+nav a:link{
+    color: rgb(0, 120, 0);
+}
+nav a:visited{
+    color: rgb(0, 60, 0);
+}
+nav a:hover{
+    color: #FFFFFF;
+}
+#wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(165, 120, 25);
+    background-image: linear-gradient(to top, #ffffff, rgb(165, 120, 25));
+    background-repeat: no-repeat;
+}
+body{
+    color: rgb(0, 60, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+    background-image: url(background.jpg);
+}
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 60, 0);
+}
+.dark{
+    text-align: center;
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 120%;
+}
+ul{
+    text-align: center;
+    list-style: none;
+    font-size: 150%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+    font-size: 130%;
+}
+.berne{
+    text-align: center;
+}
+.golden{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    font-size: 75%;
+}
+main{
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to bottom, #ffffff, rgb(165, 120, 25));
+    margin-left: 190px;
+    padding-left: 30px;
+    overflow: auto;
+    padding: 1px 20px 20px 20px;
+    display: block;
+}
+section{
+    float: left;
+    width: 45%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+footer{
+    background-color: lightgray;
+}
+table{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+    background-color: lightgreen;
+    text-align: center;
+    margin: auto;
+}
+table, td, th{
+    padding: .5em;
+    border: 3px solid #3399CC;
+}
+label{
+    float: left;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input{
+    display: block;
+    margin-bottom: 50px;
+}
+textarea{
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    margin-left: 145px;
+}
+input[type="checkbox"]{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+form{
+
+    margin: auto;
+    font-size: 1.3em;
+}
